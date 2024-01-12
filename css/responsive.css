@@ -1,0 +1,36 @@
+/******** Tablet ********/
+@media screen and (max-width: 992px) {
+  /* header */
+  header {
+    padding: 40px 80px;
+  }
+  header nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-content {
+    margin: 50px auto 50px;
+  }
+  .banner-content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/******** Mobile ********/
+@media screen and (max-width: 767px) {
+  /* header */
+  header {
+    padding: 30px 50px;
+  }
+  .banner-content h1 {
+    font-size: 2.5rem;
+  }
+  header .nav-title {
+    font-size: 1.7rem;
+  }
+  .btn-primary {
+    font-size: 1rem;
+    width: 160px;
+    height: 56px;
+  }
+}
